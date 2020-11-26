@@ -1,5 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    //hide
+    let hidder = document.getElementById('hidder')
+    hidder.addEventListener('click',()=>{
+        let selector = document.getElementById('selector');
+        let nav = document.getElementsByTagName('nav');
+        selector.style.display = "none";
+        nav[0].style.display = "none";
+    })
+
+    //main
     let leaveDate = document.getElementById('datepicker')
     let result = document.getElementById('result');
     let title = document.getElementById('title');
