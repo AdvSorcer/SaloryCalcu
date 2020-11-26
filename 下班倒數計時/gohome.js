@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let hidder = document.getElementById('hidder')
     hidder.addEventListener('click',()=>{
         let selector = document.getElementById('selector');
+        let nav = document.getElementsByTagName('nav');
         selector.style.display = "none";
+        nav[0].style.display = "none";
     })
 
     setInterval(function () {  
