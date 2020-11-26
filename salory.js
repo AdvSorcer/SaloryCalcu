@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 
+  
+
     let hourSalory = document.getElementById('salory');
     let result = document.getElementById('result');
     let monthSalory = document.getElementById('MonthSalory')
